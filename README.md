@@ -19,9 +19,8 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 - Run locally on macOS using Python 3, ADB, and scrcpy, with no additional Python packages required.
 
 # Hardware
-- Firestick models supported: E9L29Y, K2R2TE, M3N6RA.  Other models may be supported, but have not been tested.  The main requirements are ABD controllability and whether the
-built-in web browser ( called Silk ) supports full screening through sent keystrokes.
-- Any mac ( Currently running on 2010 Macbook Pro High Sierra (10.13.6) ).  Mac generation dictates the scrcpy version.
+- Firestick models supported: E9L29Y, K2R2TE, M3N6RA.  Other models may be supported, but have not been tested.  The main requirements are ABD controllability and whether the built-in web browser ( called Silk ) supports full screening through sent keystrokes.  The older firestick 4k models seem to work better.
+- Any mac that runs python3 and srccpy.  My current setup is 2010 Macbook Pro High Sierra (10.13.6) running an older version of scrcpy.
 
 # How to run
 - On a mac, open the .command file, that will open a terminal window and then a web page to the application.
