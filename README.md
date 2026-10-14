@@ -18,9 +18,28 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 - Save device names, assignments, selections, minimized states, and connection preferences across restarts.
 - Run locally on macOS using Python 3, ADB, and scrcpy, with no additional Python packages required.
 
-# Hardware
-- Firestick models supported: E9L29Y, K2R2TE, M3N6RA.  Other models may be supported, but have not been tested.  The main requirements are ADB controllability and whether the built-in web browser ( called Silk ) supports full screening through sent keystrokes.  The older firestick 4k models seem to work better.
-- Any mac that runs python3 and srccpy.  My current setup is 2010 Macbook Pro High Sierra (10.13.6) running an older version of scrcpy.
+# Supported Firesticks
+| Model number | Device | OS / Android base | CPU | RAM | FTC controller suitability |
+|---|---|---|---|---|---|
+| E9L29Y | Stick 4K, 2018 | Fire OS 6 / Android 7.1 | Quad-core 1.7 GHz | 1.5 GB | Confirmed working |
+| K2R2TE | Stick 4K Max, 2021 | Fire OS 7 / Android 9 | Quad-core 1.8 GHz | 2 GB | Confirmed working |
+| M3N6RA | Stick 4K, 2023 | Fire OS 8 / Android 11 | Quad-core Cortex-A55, 1.7 GHz | 2 GB | Confirmed working |
+| K3R6AT | Stick 4K Max, 2023 | Fire OS 8 / Android 11 | Quad-core Cortex-A55, 2.0 GHz | 2 GB | Strong candidate; controller testing required |
+| S3L46N | Stick 3rd gen, 2020 | Fire OS 7 / Android 9 | Quad-core 1.7 GHz | 1 GB | Candidate for basic 1080p displays |
+| S3L46N | Stick Lite, 2020 | Fire OS 7 / Android 9 | Quad-core 1.7 GHz | 1 GB | Candidate; less memory headroom |
+| S3L46N | Stick HD, 2024 | Fire OS 7 / Android 9 | Quad-core 1.7 GHz | 1 GB | Candidate for basic 1080p displays |
+| LY73PR | Stick 2nd gen / Basic Edition | Fire OS 5 / Android 5.1 | Quad-core 1.3 GHz | 1 GB | Backup only; older hardware and software |
+| W87CUN | Stick 1st gen, 2014 | Fire OS 5 / Android 5.1 | Dual-core Cortex-A9, 1.0 GHz | 1 GB* | Avoid for event deployment |
+| LDC9WZ | Fire TV pendant, 2017 | Fire OS 6 / Android 7.1 | Quad-core Cortex-A53, 1.5 GHz | 2 GB | Potentially usable; testing required |
+
+*W87CUN divides its RAM into 512 MB system memory and 512 MB video memory.*
+
+**S3L46N is shared by multiple products:** confirm the product name in Settings.
+
+**Compatibility:** “Confirmed working” refers to devices tested with this controller. Other models require testing and controller configuration. Vega OS devices are not compatible with the current Android ADB/scrcpy approach.
+
+# Mac requiremnts
+- Any mac that runs python3, ADB, and strcpy.  My current setup is 2010 Macbook Pro High Sierra (10.13.6) running an older version of scrcpy.
 
 # How to run
 - On a mac, open the .command file, that will open a terminal window and then a web page to the application.
