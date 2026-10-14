@@ -54,9 +54,5 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 # Tips
 - If using for the field display and game sounds, use an ethernet adapter over wifi.  Wifi has about 1/2 second latency for the sound.
 
-# Next steps
-- Review the Install-Guide and User-Guide
-
 # Known issues
-- Firesticks come in many different versions, some of which will not allow ADB management.
 - Firesticks are a consumer product, Amazon sends all sorts of popups, test the config prior to an event
