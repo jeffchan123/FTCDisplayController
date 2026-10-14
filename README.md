@@ -30,7 +30,8 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 <img width="1392" height="818" alt="Screen Shot 2026-10-14 at 10 46 49 AM" src="https://github.com/user-attachments/assets/c73cc3e4-5dc8-4c76-bea9-256512f3dc1c" />
 
 # Walkthrough Video
-- https://youtu.be/2tGv_L5cdYM
+- [Video Walkthrough](https://youtu.be/2tGv_L5cdYM){:target="_blank"}
+
 
 # Tips
 - If using for the field display and game sounds, use an ethernet adapter over wifi.  Wifi has about 1/2 second latency for the sound.
