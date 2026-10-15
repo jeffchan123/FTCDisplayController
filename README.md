@@ -1,4 +1,4 @@
-This project creates a centralized controller for FTC tournaments.  This can be adapted to any type of remotely managed (mirrored and interactive) display using cheap hardware ( e.g. Firesticks )
+This project creates a centralized display controller to remotely manage (mirror and interact) with FTC tournament display using Firesticks.
 
 # Features
 - Monitor and manage seven Fire TV Sticks from one local browser dashboard.
@@ -39,11 +39,11 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 **Compatibility:** “Confirmed working” refers to devices tested with this controller. Other models require testing and controller configuration. Vega OS devices are not compatible with the current Android ADB/scrcpy approach.
 
 # Mac requiremnts
-- Any mac that runs python3, ADB, and strcpy.  My current setup is 2010 Macbook Pro High Sierra (10.13.6) running an older version of scrcpy.
+- Any mac that runs python3, ADB, and strcpy.  My current setup is 2010 Macbook Pro High Sierra (10.13.6) running an older version of scrcpy (2.7).
 
 # How to run
-- On a mac, open the .command file, that will open a terminal window and then a web page to the application.
-- You can create an alias to the .command file and put on the desktop for easy access
+- On a mac terminal, run .command file, a web page will open to show the application.
+- TIP: You can create an alias to the .command file and put on the desktop for easy access.
 
 # Screenshot
 <img width="1392" height="818" alt="Screen Shot 2026-10-14 at 10 46 49 AM" src="https://github.com/user-attachments/assets/c73cc3e4-5dc8-4c76-bea9-256512f3dc1c" />
@@ -52,7 +52,7 @@ This project creates a centralized controller for FTC tournaments.  This can be 
 - https://youtu.be/2tGv_L5cdYM
 
 # Tips
-- If using for the field display and game sounds, use an ethernet adapter over wifi.  Wifi has about 1/2 second latency for the sound.
+- If using for the field display and game sounds, use an ethernet adapter and wifi together.  Using Wifi only results in 1/2 second latency for the game sounds.
 
 # Known issues
-- Firesticks are a consumer product, Amazon sends all sorts of popups, test the config prior to an event
+- Firesticks are a consumer product, Amazon sends all sorts of random popups and notificaitons, test each firestick again prior to an event to clear out stray notifications.
