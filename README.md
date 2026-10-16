@@ -51,8 +51,6 @@ This project creates a centralized display controller to remotely manage (mirror
 # Walkthrough Video
 - https://youtu.be/2tGv_L5cdYM
 
-# Tips
-- If using for the field display and game sounds, use an ethernet adapter and wifi together.  Using Wifi only results in 1/2 second latency for the game sounds.
-
 # Known issues
+- There is about 1/2 second sound latency when using this a field display ( vs a direct HDMI ).  Testing on ethernet did not make a difference.
 - Firesticks are a consumer product, Amazon sends all sorts of random popups and notificaitons, test each firestick again prior to an event to clear out stray notifications.
